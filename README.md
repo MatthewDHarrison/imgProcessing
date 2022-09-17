@@ -18,7 +18,7 @@ separating the subject of a photo from the background. Of course, this is
 dependent on the contrast between subject and background, but the technique can
 be quite effective.
 
-To run: python3 otsu.py [imageName]
+To run: `python3 otsu.py [imageName]`
 
 ## Histogram Equalization for Pixel Intensity
 
@@ -34,4 +34,4 @@ Where:
  - $M, N$ are the dimensions of the photo
  - $n_k$ is the number of pixels with intensity $r_k$
 
-To run: python3 histEq.py [imageName]
+To run: `python3 histEq.py [imageName]`
