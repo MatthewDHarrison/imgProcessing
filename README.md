@@ -27,7 +27,7 @@ near histogram minima. This results in a much more equal histogram of pixel
 intensities.
 
 To accomplish this task, I implemented the following transformation:
-    $s_k = T(r_k) = \frac{(L - 1)}{M * N}*\sum_{j=0}^{k}n_j$
+    $s_k = T(r_k) = \frac{(L - 1)}{M * N}*\Sigma_{j=0}^{k}n_j$
 Where:
  - $r \in [0, L - 1]$ represents pixel values (in intensity) with $r = 0$ being black and $r = L - 1$ being white
  - $L$ is the number of distinct pixel values, i.e. 256
